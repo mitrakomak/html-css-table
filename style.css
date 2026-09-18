@@ -1,0 +1,28 @@
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+h1 {
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #0e0d0d;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #eaf2ff;
+}
+
+tr:nth-child(even) {
+    background-color: #cfd8e2;
+}
+
+tr:hover {
+    background-color: rgb(200, 221, 245);
+    cursor: pointer;
+}
